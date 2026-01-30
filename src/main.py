@@ -1,7 +1,7 @@
 from PySide6.QtWidgets import QMainWindow, QApplication
 
-from src.ui.ui_windown import Ui_MainWindow
-from src.date_time import Age
+from ui.ui_windown import Ui_MainWindow
+from date_time import Age
 import sys
 
 class MainWindow(QMainWindow, Ui_MainWindow):

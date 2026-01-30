@@ -15,7 +15,7 @@ class Age:
     
     def calculate_age(self, day_user: int, month_user: int, year_user: int) -> str:
         age_day = self.date_time()[0] - day_user
-        age_month = self.date_time()[1] - month_user 
+        age_month = month_user - self.date_time()[1]
         age_year = self.date_time()[2] - year_user
         age = (f'Você tem {age_day} dias, {age_month} meses e {age_year} anos de idade!')
         return age
